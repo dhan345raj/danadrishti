@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10%;
+    padding: 0;
+    background-color: #1EE6A9;
+    align-items: center;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 1000%;
+  }
+  
+  header {
+    background-color: #01d262;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-left: 1%;
+    display: flexbox;
+    flex-direction: column-reverse;
+    justify-content:center;
+  }
+  
+  h2, h3 {
+    color: #333;
+    text-align: middle;
+    ;
+  }
+  
+  .contact-info p, .visit-us p {
+    margin: 10px 0;
+  }
+  
+  .message-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 35%;
+    align-self: center;
+  }
+  
+  input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
